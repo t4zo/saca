@@ -17,7 +17,7 @@ namespace SACA.Controllers
         [HttpGet("/")]
         public ActionResult<string> Index()
         {
-            return "SACA v0.4";
+            return "SACA v0.3.0";
         }
 
         [AllowAnonymous]

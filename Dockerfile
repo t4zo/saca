@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:6.0-jammy-arm64v8 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:6.0-jammy AS base
 LABEL maintainer="Tacio de Souza Campos"
 EXPOSE 80
 EXPOSE 443
